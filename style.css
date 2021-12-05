@@ -69,8 +69,8 @@ a {
     padding: 8px 16px;
     border-radius: 8px;
 
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882F6;
+    border: 1px solid #3882F6;
     color: white;
 
 }
@@ -88,6 +88,12 @@ a {
     align-items: center;
 }
 
+.title-2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 .items-2 {
     display: flex;
 }
@@ -100,6 +106,29 @@ a {
     width: 150px;
 }
 
-.item-2-text-1 {
-    flex-grow: 0;
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container3 {
+    background: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-3 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author-3 {
+    font-weight: bold;
+    font-size: 32px;
+
+    display: flex;
+    justify-content: flex-end;
 }
