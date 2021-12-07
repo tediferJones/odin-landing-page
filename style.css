@@ -2,16 +2,22 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
+
+    /* should probably get rid of this */
+    background: #1F2937;
 }
 
 .header,
 .container1,
-.footer {
-    background: #1F2937;
+.container4 {
+    margin: 0px 150px;    
 
 }
 
 .header {
+    /* background: #1F2937; */
+    margin: 0px 150px;
+
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -36,16 +42,19 @@ a {
 
 .footer {
     height: 72px;
+    /* background: #1F2937; */
     color: white;
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .container1 {
-    display: flex;
+    /* background: #1F2937; */
+    margin: 0px 150px;
 
+    display: flex;
 }
 
 
@@ -83,6 +92,8 @@ a {
 }
 
 .container2 {
+    background: white;
+     
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,4 +142,11 @@ a {
 
     display: flex;
     justify-content: flex-end;
+}
+
+.container4 {
+    display: flex;
+    background: #3882F6;
+    margin: 50px;
+    
 }
