@@ -1,0 +1,165 @@
+/* THIS IS ATTEMPT #2 */
+
+html,
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #1F2937;
+    padding: 8px 250px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.container1 {
+    background: #1F2937;
+    padding: 100px 250px;
+
+    display: flex;
+}
+
+.left-1 {
+    flex: 1;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.title-1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.content-1 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.signupbutton {
+    padding: 8px 16px;
+    border-radius: 8px;
+
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+}
+
+.right-1 {
+    flex: 1;
+    height: 240px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.items-2 {
+    display: flex;
+}
+
+.item {
+    width: 150px;
+    padding: 50px;
+    text-align: center;
+}
+
+.info-box {
+    border-style: solid;
+    border-radius: 12px;
+    border-color: royalblue;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+.container3 {
+    background: #E5E7EB;
+    padding: 100px 250px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-3 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author-3 {
+    font-weight: bold;
+    font-size: 32px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.container4 {
+    background: #3882F6;
+    margin: 100px 250px;
+    padding: 72px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta {
+    border-color: white;
+    border-width: 2px;
+}
+
+.text-4-header_{
+    color: white;
+}
+
+.footer {
+    height: 72px;
+    background: #1F2937;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
