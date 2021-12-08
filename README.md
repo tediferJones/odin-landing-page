@@ -1,3 +1,3 @@
 # odin-landing-page
 
-This is an edit
+This is my attempt at the odin project's landing page assignment.
